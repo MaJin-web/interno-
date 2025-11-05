@@ -29,6 +29,14 @@ a {
     margin-top: 15px;
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.padding-15 {
+    padding: 100px 0;
+}
+
 /*CLASSES FONCTIONNELLES FLEX BOX */
 
 /*rendre flexible un parent = aligner ses enfants */
@@ -49,9 +57,28 @@ a {
     justify-content: center;
 }
 
+.text-center {
+    text-align: center;
+}
 
 .align-center {
     align-items: center;
+}
+
+.border-gauche {
+    border-bottom-left-radius: 200px;
+}
+
+.border-droite {
+    border-top-right-radius: 200px;
+}
+
+.bg-beige {
+ background-color: #f9d8b7;
+}
+
+.bg-blanc {
+    background-color: white;
 }
 
 /* CLASSES DE DIMENSIONS */
@@ -72,8 +99,8 @@ a {
      width: 33%;
 }
 
-.w-25 {
-     width: 22%;
+.w-20 {
+     width: 20%;
 }
 
 /* HEADER */
@@ -99,7 +126,7 @@ header ul {
     background-size: cover;
     background-position: center;
     height: 100vh;
-
+    border-bottom-left-radius: 250px ;
 }
 
 
@@ -111,7 +138,7 @@ h1 {
 
 }
 
-.h2-35 {
+h2 {
     font-size: 35px;
 }
 
@@ -143,8 +170,8 @@ h1 {
 
 .card {
     box-shadow: 5px 5px 10px grey;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .card h3 {
