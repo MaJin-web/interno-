@@ -21,8 +21,17 @@ a {
     margin-top: 100px;
 }
 
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
 .margin-bottom {
     margin-bottom: 70px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
 }
 
 .margin-top-15 {
@@ -37,9 +46,28 @@ a {
     padding: 100px 0;
 }
 
+
+.margin-top-45 {
+ margin-top: 45px;
+}
+
+.flex-end {
+    justify-content: flex-end; 
+}
+
+.flex-start {
+    justify-content: flex-start;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
 /*CLASSES FONCTIONNELLES FLEX BOX */
 
 /*rendre flexible un parent = aligner ses enfants */
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -69,8 +97,25 @@ a {
     border-bottom-left-radius: 200px;
 }
 
+.border-gauche-top {
+    border-top-left-radius: 100px;
+}
+
+.border-gauche-bottom {
+    border-bottom-left-radius: 100px;
+}
+
+
 .border-droite {
     border-top-right-radius: 200px;
+}
+
+.border-droite-top {
+    border-top-right-radius: 100px;
+}
+
+.border-droite-bottom {
+    border-bottom-right-radius: 100px;
 }
 
 .bg-beige {
@@ -81,7 +126,24 @@ a {
     background-color: white;
 }
 
+.bg-black {
+    background-color: rgb(35, 34, 46);
+}
+
+.text-color {
+    color: white;
+}
+
+
+.text-color-grey {
+    color: rgba(85, 88, 92, 0.822);
+}
+
 /* CLASSES DE DIMENSIONS */
+
+.w-130 {
+    width: 130%;
+}
 
 .w-100 {
      width: 100%;
@@ -103,6 +165,15 @@ a {
      width: 20%;
 }
 
+.w-15 {
+    width: 15px;
+}
+
+
+.w-40 {
+
+    width: 40%;
+}
 /* HEADER */
 
 header {
@@ -129,7 +200,10 @@ header ul {
     border-bottom-left-radius: 250px ;
 }
 
+.section-6-size {
+    height: 25vh;
 
+}
 
 h1 {
     margin-bottom: 20px;
